@@ -23,8 +23,9 @@ The execution of the regional model relies on a JAR as well. The configuration f
 
 ## Running the simulations
 Before event attempting to run the models, two things must be done:
-- first: unzip the file "path_set_generation.tar.gz" in the folder case-study/BM/. The file inside should be named "path_set_generation.dat"
-- second: download and install the gurobi solver. The regional model was built against version 6.5.1. Replace the file "gurobi.jar.placeholder" with the functional "gurobi.jar".
+- unzip the file "path_set_generation.tar.gz" in the folder case-study/BM/. The file inside should be named "path_set_generation.dat"
+- download and install the gurobi solver. The regional model was built against version 6.5.1. Replace the file "gurobi.jar.placeholder" with the functional "gurobi.jar".
+
 Each model can be run individually to test the configuration. In order to run different models in sequence, a specific sequence must be configured. This can be done using the sequence editor File -> Edit Sequences.
 Here one can create, edit or delete any sequence of models. The possibility to provide specfic configuration files for each step of the sequence exists. This can be useful if some simulations have been done separately and the tool should only transform the data between the different models.
 To tranform the data between the regional model and the bus mzzo (urban model), a reference time must be provided. For the case study contained in this repo, this time must be set to 6am. This is done my default, so nothing actually needs changing. 
