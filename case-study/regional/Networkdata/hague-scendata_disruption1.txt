@@ -1,0 +1,4 @@
+#Category, scenario-ID, starttime, endtime, LOC1, LOC2, init delay (in minutes), concerned train-services (ID).
+#Note: The disruption characteristics are actually hard-coded based on the scenario-ID specified in this file - scenario-ID 11 refers to disruption 1 with objective 1 while 12 would imply disruption 1 with objective 2, etc.. 
+3	13	06:00:00	10:00:00	LEDN	LEDN	AVG_15	1700,11800,22400,42400,24600,44600
+End

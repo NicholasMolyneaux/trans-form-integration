@@ -1,0 +1,3 @@
+#Category, scenario-ID, starttime, endtime, NWK1, NWK2, init delay (in minutes), concerned trainID.
+1	1	06:00:00	11:00:00	DTZ	DT	0	1124000
+End

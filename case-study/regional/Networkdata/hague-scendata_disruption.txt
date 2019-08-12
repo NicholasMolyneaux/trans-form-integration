@@ -1,0 +1,4 @@
+#Category, scenario-ID, starttime, endtime, LOC1, LOC2, init delay (in minutes), concerned train-services (ID).
+#Note: The disruption characteristics are actually hard-coded based on the scenario-ID specified in this file - scenario-ID 21 refers to disruption 2 with objective 1 while 13 would imply disruption 2 with objective 3, etc.. 
+2	23	06:00:00	10:00:00	GD	GD	Init_10min&50%	237800
+End
